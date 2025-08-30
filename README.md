@@ -55,7 +55,7 @@ This repository provides valuable resources, techniques, and real-world examples
 - **Ensures Quality and Usability**: Requirement analysis also includes identifying non-functional requirements like performance, security, and scalability, ensuring the system is reliable, efficient, and user-friendly.
 - **Minimizes Risks**: By understanding user needs upfront, requirement analysis helps identify potential risks early, allowing teams to mitigate or avoid issues later in the development cycle.
 
-### Why is Requirement Analysis Important?
+### Key Activities in Requirement Analysis
 1. **Clarifies Stakeholder Expectations**: Requirement analysis helps ensure that all stakeholders are aligned on the software's functionality and business goals. Without clear requirements, misunderstandings can lead to significant delays, wasted resources, and misaligned features.
   
 2. **Reduces Costs and Risks**: Identifying requirements early in the project allows for better pl
