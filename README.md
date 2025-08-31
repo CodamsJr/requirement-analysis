@@ -130,43 +130,32 @@ Non-functional requirements specify how the system should perform and define the
 - **Usability**: The user interface should be intuitive and easy to navigate for all users, regardless of technical proficiency.
 - **Availability**: The system should have 99.9% uptime, ensuring that users can make bookings at any time of the day or night.
 
+# Use Case Diagrams
 
-## Use Case Diagrams
-
-### What are Use Case Diagrams?
-
-Use Case Diagrams are a type of UML (Unified Modeling Language) diagram used to visually represent the interactions between different actors (users or other systems) and the system. They are used to identify the main functions of the system and how users interact with it. 
+Use Case Diagrams are a visual representation of the interactions between users (actors) and a system. They help in identifying the functional requirements of a system by showing what the system should do and how external entities interact with it.  
 
 ### Benefits of Use Case Diagrams:
-- **Clarifies System Functions**: Use case diagrams provide a clear understanding of how the system will function and what the user needs from the system.
-- **Improves Communication**: They offer a simple way to communicate system requirements between stakeholders, developers, and users.
-- **Easy to Understand**: Use case diagrams use simple, easy-to-understand symbols to show how the system should behave from a user’s perspective.
-- **Identifies User Roles**: They help identify and define the different roles users will play in interacting with the system, ensuring that the system is designed to meet user needs.
+- Provide a clear and simple way to capture functional requirements.  
+- Help stakeholders understand system functionality at a high level.  
+- Serve as a communication tool between developers, business analysts, and clients.  
+- Identify all possible interactions with the system.  
 
-### Use Case Diagram for Booking System
+### Booking System Use Case Diagram
 
-Below is the use case diagram for the **Booking Management System**, listing the key **actors** and **use cases** involved in the booking process.
+The diagram below illustrates the main actors and their interactions with the booking management system.  
 
-![Booking System Use Case Diagram](./images/alx-booking-uc.png)
+**Actors:**
+- Customer  
+- Admin  
+- Payment Gateway  
 
----
+**Use Cases:**
+- Register Account  
+- Search for Booking  
+- Make a Reservation  
+- Cancel a Reservation  
+- Process Payment  
+- Manage Bookings (Admin)  
+- Generate Reports (Admin)  
 
-### Step 2: Create the Use Case Diagram
-
-- Use tools like **Draw.io** or **Lucidchart** to design the use case diagram. The diagram should include the following actors and use cases:
-  - **Actors**: 
-    - User
-    - Admin
-  - **Use Cases**:
-    - User Registration
-    - Search for Properties
-    - Book Property
-    - View Booking Details
-    - Process Payment
-    - Send Confirmation Email
-
-Once you’ve created the diagram, export it as **alx-booking-uc.png** and store it in the `images` folder (or any folder you prefer).
-
-### Step 3: Upload the Image to GitHub
-
-- After creating and exporting the image, upload the **alx-booking-uc.png** image to your GitHub repository under an appropriate directory (like `images`).
+![Use Case Diagram](./alx-booking-uc.png)
